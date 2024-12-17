@@ -2,7 +2,8 @@ import {z} from "zod"
 
 export const StreamSchema = z.object({
   url : z.string(),
-  creatorId : z.string()
+  creatorId : z.string(),
+  spaceId : z.string()
 })
 
 export const DownvoteSchema = z.object({
